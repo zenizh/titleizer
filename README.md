@@ -6,7 +6,7 @@ title-rails sets page title to Rails application using I18n.
 
 Add this line to your application's Gemfile:
 
-```
+```ruby
 gem 'title-rails'
 ```
 
@@ -24,7 +24,7 @@ $ bundle
 
 Add page titles to your `config/locales/*.yml`:
 
-```
+```yaml
 en:
   title:
     application: My Blog
@@ -40,7 +40,7 @@ en:
 
 Modify title tag in `app/views/layouts/application.html.erb`:
 
-```
+```erb
 <!DOCTYPE html>
 <html>
   <head>
@@ -58,7 +58,7 @@ Then you will see the page title as you set.
 
 If you want to set page title using variable, you can set `@title_params` in your action:
 
-```
+```ruby
 class PostsController < ApplicationController
   def show
     @post = Post.find(params[:id])
@@ -70,7 +70,7 @@ end
 
 When `@post.subject` is "My first post", `posts#show` title is as follows:
 
-```
+```erb
 <!DOCTYPE html>
 <html>
   <head>
@@ -86,7 +86,7 @@ This feature is useful in some case, such as rendering error page.
 
 For example, if you set view file as follows, the page title become `404 Not Found | My Blog` even if you set title in locales.
 
-```
+```erb
 <% provide :title, '404 Not Found' %>
 ```
 
