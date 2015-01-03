@@ -1,0 +1,8 @@
+en:
+  title:
+    application: application
+    description: description
+    pages:
+      preferred: default
+      default: default
+      default_with_params: "default %{params}"
