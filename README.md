@@ -1,5 +1,7 @@
 # title-rails
 
+[![Build Status](https://travis-ci.org/kami30k/title-rails.svg)](https://travis-ci.org/kami30k/title-rails)
+
 title-rails sets page title to Rails application using I18n.
 
 ## Installation
