@@ -1,16 +1,16 @@
-# title-rails
+# Titleizer
 
-[![Build Status](https://travis-ci.org/kami30k/title-rails.svg)](https://travis-ci.org/kami30k/title-rails)
-[![Gem Version](https://badge.fury.io/rb/title-rails.svg)](http://badge.fury.io/rb/title-rails)
+[![Build Status](https://travis-ci.org/kami30k/titleizer.svg)](https://travis-ci.org/kami30k/titleizer)
+[![Gem Version](https://badge.fury.io/rb/titleizer.svg)](http://badge.fury.io/rb/titleizer)
 
-title-rails sets page title to Rails application using I18n.
+Titleizer sets page title to Rails application using I18n.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'title-rails'
+gem 'titleizer'
 ```
 
 And then execute:
@@ -95,7 +95,7 @@ For example, if you set view file as follows, the page title become `404 Not Fou
 
 ## Contributing
 
-1. Fork it ( https://github.com/kami30k/title-rails/fork )
+1. Fork it ( https://github.com/kami30k/titleizer/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)

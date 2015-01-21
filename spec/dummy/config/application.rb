@@ -9,7 +9,7 @@ require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
 Bundler.require(*Rails.groups)
-require "title-rails"
+require "titleizer"
 
 module Dummy
   class Application < Rails::Application

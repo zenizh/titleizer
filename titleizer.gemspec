@@ -1,13 +1,13 @@
 $:.push File.expand_path("../lib", __FILE__)
 
-require "title/rails/version"
+require "titleizer/version"
 
 Gem::Specification.new do |s|
-  s.name        = "title-rails"
-  s.version     = Title::Rails::VERSION
+  s.name        = "titleizer"
+  s.version     = Titleizer::VERSION
   s.authors     = ["kami"]
   s.email       = ["kami30k@gmail.com"]
-  s.homepage    = "https://github.com/kami30k/title-rails"
+  s.homepage    = "https://github.com/kami30k/titleizer"
   s.summary     = "Set page title to Rails application using I18n."
   s.description = "Set page title to Rails application using I18n."
   s.license     = "MIT"
